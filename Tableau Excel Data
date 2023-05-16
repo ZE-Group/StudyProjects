@@ -1,3 +1,4 @@
+
 --- information to get into Tableau for different excel
 
 	-- excel 1
@@ -62,4 +63,3 @@ GROUP BY
     date
 ORDER BY
     PercentPopulationInfected DESC;
-
