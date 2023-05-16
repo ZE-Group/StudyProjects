@@ -87,5 +87,3 @@ GROUP BY covid_data.location, covid_data.population
 
 -- after the table has been created we can update 
 	--or alter the table to insert different information 
-	
-select * FROM 
