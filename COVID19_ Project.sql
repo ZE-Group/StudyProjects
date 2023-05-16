@@ -73,8 +73,7 @@ LIMIT 20;
 -- now let's create a table with this information 
 
 
---create table vaccination_stats as
-(
+create table vaccination_stats as (
 	SELECT covid_data.location, covid_data.population, 
 		MAX(covid_vaccin.total_vaccinations::numeric) 
 			AS Highest_vaccination,
